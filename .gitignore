@@ -1,0 +1,7 @@
+# Local credentials and portal dumps contain personal data - never commit them.
+credentials.ini
+dump/
+
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Messdienst24",
+        "description": "Zugangsdaten für legacy.messdienst24.de",
+        "data": {
+          "username": "Benutzername",
+          "password": "Passwort",
+          "md": "Messdienst-Kürzel (aus ?md=… in der URL)"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Messdienst24",
+        "description": "Das Passwort wurde abgelehnt. Bitte neu eingeben.",
+        "data": {
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Benutzername oder Passwort falsch.",
+      "cannot_connect": "Portal nicht erreichbar oder unerwartete Antwort.",
+      "no_meters": "Login ok, aber keine Zähler auf der Verbrauchsseite gefunden."
+    },
+    "abort": {
+      "already_configured": "Dieses Konto ist bereits eingerichtet.",
+      "reauth_successful": "Zugangsdaten aktualisiert."
+    }
+  }
+}

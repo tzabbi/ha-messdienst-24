@@ -52,6 +52,11 @@ class Meter:
     def latest(self) -> Reading | None:
         return self.readings[-1] if self.readings else None
 
+    @property
+    def latest_valid(self) -> Reading | None:
+        """Newest reading with a positive value (zero means missing data)."""
+        return next((r for r in reversed(self.readings) if r.value > 0), None)
+
 
 def _to_float(raw: str) -> float:
     # German number format: "." thousands separator, "," decimal separator.

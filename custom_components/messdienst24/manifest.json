@@ -1,0 +1,17 @@
+{
+  "domain": "messdienst24",
+  "name": "Messdienst24 (EXTERN)",
+  "codeowners": [
+    "@tzabbi"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "recorder"
+  ],
+  "documentation": "https://github.com/tzabbi/ha-messdienst-24",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/tzabbi/ha-messdienst-24/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

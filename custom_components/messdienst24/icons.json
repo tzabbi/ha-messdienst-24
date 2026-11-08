@@ -1,0 +1,15 @@
+{
+  "entity": {
+    "sensor": {
+      "heat": {
+        "default": "mdi:radiator"
+      },
+      "warm_water": {
+        "default": "mdi:water-thermometer"
+      },
+      "cold_water": {
+        "default": "mdi:water"
+      }
+    }
+  }
+}
